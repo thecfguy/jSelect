@@ -1,0 +1,9 @@
+.js_dropdown {border:1px solid #ccc;position:relative;cursor:pointer;padding:1px;background:#efefef;min-height:20px;}
+.js_selectedText{overflow:hidden;height:20px}
+.js_dropdownarrow{width:0;height:0;position:absolute;right:10px;top:50%;margin-top:-3px;border:solid 5px transparent;border-top:solid 5px #000;}
+.js_dropon{border:solid 5px transparent !important;border-bottom:solid 5px #000 !important;margin-top:-8px;}
+.js_options{border:solid 1px #ccc;list-style:none;box-shadow:0px 1px 5px #ddd;position:absolute;z-index:2000;margin:0;padding:0;background:#fff;display:none;list-style:none;overflow-x:hidden;overflow-y:auto}
+.js_optiongroup,.js_option{ padding:2px; display:block; border-bottom:solid 1px #ddd; overflow:hidden; text-decoration:none; color:#333; cursor:pointer;}
+.js_option:hover{ background:#f3f3f3; color:#000;}
+.js_optiongroup { background:#cccccc; color:#000;}
+.js_selected {cursor:pointer;background:#dddddd;}
